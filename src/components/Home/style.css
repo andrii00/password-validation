@@ -1,0 +1,33 @@
+.wrapper-input {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #05b1ff38;
+}
+.container-input {
+  max-width: 400px;
+  min-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-container {
+  width: 100%;
+}
+input {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid grey;
+  max-width: 95%;
+  width: 100%;
+}
+
+.container-input h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
